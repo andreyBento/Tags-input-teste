@@ -1,0 +1,66 @@
+body,
+html{
+    margin: 0;
+    border: none;
+}
+
+.app{
+    background-color: #f9faff;
+}
+
+.titulo{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.alert{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f44336;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.info{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.tab{
+    padding: 2px 6px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 25px;
+}
+
+.container .MuiChip-root{
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.container .MuiInputBase-root{
+    flex-wrap: wrap;
+    padding: 20px 14px;
+}
+
+.container .MuiInputBase-input{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    flex: 1;
+    min-width: 100px;
+}
